@@ -8,12 +8,6 @@ namespace ShoppingLibrary
     {
 
         List<ShoppingCartItem> _items = new List<ShoppingCartItem>();
-        protected string items;
-
-        public ShoppingCart()
-        {
-               
-        }
 
         public void ShoppingList(ShoppingCartItem item)
         {

@@ -26,8 +26,8 @@ namespace ShoppingCartApp
             {
                 Console.Write(product.ItemName +"\t\t");
                 Console.WriteLine(product.PriceOfItem);
+               
             }
-
             Console.WriteLine("Sub Total: \t" + shoppingcart.GetSubTotal());
             Console.WriteLine("With VAT: \t" + shoppingcart.GetVat());
 
